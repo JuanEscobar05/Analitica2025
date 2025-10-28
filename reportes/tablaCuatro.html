@@ -1,0 +1,2039 @@
+
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Ventas ordenadas por total descendente</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+        </head>
+        <body>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <h3>Ventas ordenadas por total descendente</h3>
+                        <div class="table-responsive">
+                            <table border="1" class="dataframe table table-striped table-bordered">
+  <thead>
+    <tr style="text-align: left;">
+      <th>fecha</th>
+      <th>producto</th>
+      <th>precioUnitario</th>
+      <th>talla</th>
+      <th>cantidad</th>
+      <th>vendedor</th>
+      <th>total</th>
+      <th>dia_semana</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2025-03-08</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>40</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1750000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-03-03</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1750000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-03-13</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1750000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-03-11</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1750000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-02-11</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1750000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-01-05</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1750000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-02-28</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1750000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-03-01</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1750000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-02-07</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1750000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-01-19</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1750000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-02-08</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>40</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1750000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-03-20</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1750000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-01-19</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1750000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-03-16</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1750000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-03-19</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1750000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-03-22</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1750000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-01-02</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1750000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-03-04</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1750000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-03-02</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1750000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-02-06</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>40</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1750000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-03-11</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1750000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-03-02</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1750000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-03-29</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1750000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-03-06</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1750000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-02-04</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1750000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-03-20</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1750000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-02-07</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1750000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-02-27</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1750000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-01-25</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1750000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-01-15</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>40</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1750000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-02-28</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1750000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-01-25</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1750000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-03-08</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1750000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-01-18</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1750000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-02-28</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1750000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-01-06</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1750000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-26</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>40</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1750000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-02-13</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1750000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-03-02</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1750000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-01-08</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>40</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1750000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-03-27</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1750000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-03-03</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1750000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-03-20</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1400000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-01-21</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>S</td>
+      <td>4</td>
+      <td>Carlos Franco</td>
+      <td>1400000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-01-06</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>M</td>
+      <td>4</td>
+      <td>Raul Cossio</td>
+      <td>1400000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-20</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>S</td>
+      <td>4</td>
+      <td>Juan Jose Gallego</td>
+      <td>1400000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-01-02</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>4</td>
+      <td>Raul Cossio</td>
+      <td>1400000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-01-16</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>4</td>
+      <td>Carlos Franco</td>
+      <td>1400000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-02-11</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>40</td>
+      <td>4</td>
+      <td>Raul Cossio</td>
+      <td>1400000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-03-26</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>4</td>
+      <td>Juan Jose Gallego</td>
+      <td>1400000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-03-19</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>40</td>
+      <td>4</td>
+      <td>Anyi David</td>
+      <td>1400000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-01-12</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>4</td>
+      <td>Anyi David</td>
+      <td>1400000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-03-03</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>40</td>
+      <td>4</td>
+      <td>Juan Jose Gallego</td>
+      <td>1400000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-03-13</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1400000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-01-10</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>M</td>
+      <td>4</td>
+      <td>Raul Cossio</td>
+      <td>1400000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-01-23</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>S</td>
+      <td>4</td>
+      <td>Anyi David</td>
+      <td>1400000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-01-01</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>40</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1400000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-01-08</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>4</td>
+      <td>Juan Jose Gallego</td>
+      <td>1400000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-03-21</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>40</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1400000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-02-26</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>40</td>
+      <td>4</td>
+      <td>Carlos Franco</td>
+      <td>1400000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-01-06</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>40</td>
+      <td>4</td>
+      <td>Carlos Franco</td>
+      <td>1400000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-01</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>4</td>
+      <td>Carlos Franco</td>
+      <td>1400000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-02-09</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>M</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1400000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-03-18</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>4</td>
+      <td>Raul Cossio</td>
+      <td>1400000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-03-28</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>M</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1400000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-01-13</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1400000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-05</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>4</td>
+      <td>Anyi David</td>
+      <td>1400000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-02-05</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>40</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1400000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-03-13</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1400000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-02-09</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1400000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-01-03</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>S</td>
+      <td>4</td>
+      <td>Juan Jose Gallego</td>
+      <td>1400000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-02-17</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>4</td>
+      <td>Carlos Franco</td>
+      <td>1400000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-02</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>4</td>
+      <td>Raul Cossio</td>
+      <td>1400000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-03-30</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>M</td>
+      <td>4</td>
+      <td>Raul Cossio</td>
+      <td>1400000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-03-19</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>4</td>
+      <td>Raul Cossio</td>
+      <td>1400000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-01-25</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1400000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-03-04</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>S</td>
+      <td>4</td>
+      <td>Juan Jose Gallego</td>
+      <td>1400000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-01-18</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>4</td>
+      <td>Juan Jose Gallego</td>
+      <td>1400000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-03-06</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>4</td>
+      <td>Juan Jose Gallego</td>
+      <td>1400000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-01-16</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>40</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1400000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-02-09</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1400000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-01-26</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>4</td>
+      <td>Juan Jose Gallego</td>
+      <td>1400000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-03-10</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1250000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-21</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1250000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-02-21</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>40</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1250000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-02-05</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>L</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1250000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-02-24</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1250000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-15</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1250000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-01-12</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>S</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1250000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-01-08</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>42</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1250000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-02-06</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1250000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-01-24</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>42</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1250000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-01-06</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>S</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1250000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-23</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>42</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1250000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-02-09</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1250000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-03-02</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1250000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-03-07</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>S</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1250000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-02-24</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1250000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-26</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1250000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-02-09</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>L</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1250000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-01-19</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1250000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-02-05</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1250000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-02-06</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1250000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-03-29</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1250000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-01-05</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>40</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1250000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-01-07</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>S</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1250000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-02-05</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1250000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-01-08</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1250000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-01-12</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>40</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1250000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-03-18</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>S</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1250000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-02-17</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>40</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1250000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-15</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1250000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-02-14</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1250000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-04-01</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>L</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1250000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-01-01</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>40</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1250000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-01-12</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>42</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1250000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-01-06</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>3</td>
+      <td>Anyi David</td>
+      <td>1050000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-27</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>3</td>
+      <td>Carlos Franco</td>
+      <td>1050000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-01-24</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>3</td>
+      <td>Raul Cossio</td>
+      <td>1050000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-03-14</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>3</td>
+      <td>Raul Cossio</td>
+      <td>1050000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-01-21</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>M</td>
+      <td>3</td>
+      <td>Juan Jose Gallego</td>
+      <td>1050000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-02-19</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>M</td>
+      <td>3</td>
+      <td>Anyi David</td>
+      <td>1050000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-01-29</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>3</td>
+      <td>Juan Pablo Gil</td>
+      <td>1050000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-03-06</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>S</td>
+      <td>3</td>
+      <td>Anyi David</td>
+      <td>1050000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-04-01</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>S</td>
+      <td>3</td>
+      <td>Anyi David</td>
+      <td>1050000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-01-02</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>3</td>
+      <td>Juan Jose Gallego</td>
+      <td>1050000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-01-01</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>S</td>
+      <td>3</td>
+      <td>Carlos Franco</td>
+      <td>1050000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-03-31</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>3</td>
+      <td>Juan Jose Gallego</td>
+      <td>1050000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-02</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>3</td>
+      <td>Juan Jose Gallego</td>
+      <td>1050000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-01-17</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>S</td>
+      <td>3</td>
+      <td>Juan Pablo Gil</td>
+      <td>1050000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-03-30</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>M</td>
+      <td>3</td>
+      <td>Raul Cossio</td>
+      <td>1050000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-03-03</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>M</td>
+      <td>3</td>
+      <td>Anyi David</td>
+      <td>1050000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-03-28</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>3</td>
+      <td>Raul Cossio</td>
+      <td>1050000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-03-26</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>3</td>
+      <td>Juan Pablo Gil</td>
+      <td>1050000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-03-05</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>3</td>
+      <td>Anyi David</td>
+      <td>1050000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-03-05</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>42</td>
+      <td>3</td>
+      <td>Carlos Franco</td>
+      <td>1050000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-03-31</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>3</td>
+      <td>Carlos Franco</td>
+      <td>1050000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-03-06</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>S</td>
+      <td>3</td>
+      <td>Raul Cossio</td>
+      <td>1050000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-01-28</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>3</td>
+      <td>Juan Jose Gallego</td>
+      <td>1050000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-01-29</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>3</td>
+      <td>Raul Cossio</td>
+      <td>1050000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-03-30</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>38</td>
+      <td>3</td>
+      <td>Raul Cossio</td>
+      <td>1050000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-02-27</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>XL</td>
+      <td>3</td>
+      <td>Anyi David</td>
+      <td>1050000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-03-03</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>L</td>
+      <td>3</td>
+      <td>Raul Cossio</td>
+      <td>1050000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-03-21</td>
+      <td>Pantalón</td>
+      <td>350000</td>
+      <td>M</td>
+      <td>3</td>
+      <td>Juan Jose Gallego</td>
+      <td>1050000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-01-06</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>S</td>
+      <td>4</td>
+      <td>Anyi David</td>
+      <td>1000000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-01-09</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>XL</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1000000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-03-01</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>S</td>
+      <td>4</td>
+      <td>Juan Jose Gallego</td>
+      <td>1000000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-02-11</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>40</td>
+      <td>4</td>
+      <td>Carlos Franco</td>
+      <td>1000000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-01-11</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>XL</td>
+      <td>4</td>
+      <td>Anyi David</td>
+      <td>1000000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-01-16</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>38</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1000000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-02-24</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>S</td>
+      <td>4</td>
+      <td>Anyi David</td>
+      <td>1000000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-03-04</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1000000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-02-25</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1000000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-02-22</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>L</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1000000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-01-07</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1000000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-03-01</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>S</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1000000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-03-08</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>M</td>
+      <td>4</td>
+      <td>Carlos Franco</td>
+      <td>1000000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-03-16</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>S</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1000000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-01-31</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>40</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1000000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-03-16</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1000000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-01-31</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1000000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-01-13</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>38</td>
+      <td>4</td>
+      <td>Raul Cossio</td>
+      <td>1000000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-18</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1000000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-01-13</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>42</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1000000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-01-30</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1000000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-01-12</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>42</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1000000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-02-02</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1000000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-02-21</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>40</td>
+      <td>4</td>
+      <td>Anyi David</td>
+      <td>1000000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-03-16</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>S</td>
+      <td>4</td>
+      <td>Carlos Franco</td>
+      <td>1000000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-03-23</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>38</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1000000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-03-30</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1000000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-02-19</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>L</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1000000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-01-29</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>42</td>
+      <td>5</td>
+      <td>Carlos Franco</td>
+      <td>1000000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-01-02</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>S</td>
+      <td>4</td>
+      <td>Anyi David</td>
+      <td>1000000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-01-20</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>XL</td>
+      <td>4</td>
+      <td>Carlos Franco</td>
+      <td>1000000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-16</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1000000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-01-13</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>40</td>
+      <td>4</td>
+      <td>Carlos Franco</td>
+      <td>1000000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-01-02</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>38</td>
+      <td>4</td>
+      <td>Raul Cossio</td>
+      <td>1000000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-03-13</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1000000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-03-28</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>L</td>
+      <td>4</td>
+      <td>Anyi David</td>
+      <td>1000000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-03-01</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>42</td>
+      <td>4</td>
+      <td>Carlos Franco</td>
+      <td>1000000</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-02-04</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>XL</td>
+      <td>4</td>
+      <td>Raul Cossio</td>
+      <td>1000000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-03-09</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>L</td>
+      <td>4</td>
+      <td>Carlos Franco</td>
+      <td>1000000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-01-29</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>40</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1000000</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2025-02-23</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>S</td>
+      <td>4</td>
+      <td>Carlos Franco</td>
+      <td>1000000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-01-17</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1000000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-01-09</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>40</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1000000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2025-01-14</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>40</td>
+      <td>4</td>
+      <td>Juan Pablo Gil</td>
+      <td>1000000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-01-21</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>M</td>
+      <td>4</td>
+      <td>Carlos Franco</td>
+      <td>1000000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-02-10</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>S</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1000000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-18</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>L</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1000000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-02-03</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>38</td>
+      <td>5</td>
+      <td>Anyi David</td>
+      <td>1000000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-14</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>38</td>
+      <td>4</td>
+      <td>Juan Jose Gallego</td>
+      <td>1000000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-02-17</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>XL</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1000000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-02-07</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Juan Jose Gallego</td>
+      <td>1000000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025-03-11</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>L</td>
+      <td>4</td>
+      <td>Raul Cossio</td>
+      <td>1000000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-01-26</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>L</td>
+      <td>5</td>
+      <td>Juan Pablo Gil</td>
+      <td>1000000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2025-04-01</td>
+      <td>Camisa leñadora</td>
+      <td>200000</td>
+      <td>M</td>
+      <td>5</td>
+      <td>Raul Cossio</td>
+      <td>1000000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-04-01</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>L</td>
+      <td>4</td>
+      <td>Raul Cossio</td>
+      <td>1000000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2025-03-25</td>
+      <td>Jean ajustado</td>
+      <td>250000</td>
+      <td>L</td>
+      <td>4</td>
+      <td>Anyi David</td>
+      <td>1000000</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+        </html>
+    

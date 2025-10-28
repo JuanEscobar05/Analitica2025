@@ -1,0 +1,7 @@
+1.6 Acceder a varias columnas al mismo tiempo
+    
+    1. Usando una lista de columnas -> #print(tablaOrdenada[["vendedor", "producto", "total"]])
+    2. Usando loc para seleccionar todas las filas y columnas específicas -> #print(tablaOrdenada.loc[:, ["vendedor", "producto", "total"]])
+    3. Usando iloc para seleccionar por posición -> #print(tablaOrdenada.iloc[:, [0, 1, 2]])  # Selecciona las primeras tres columnas
+
+

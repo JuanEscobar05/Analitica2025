@@ -115,12 +115,6 @@ pip install -r paquetes.txt
 
 ---
 
-### 🔹 `explicación.txt`
-
-Documento de apoyo que explica el objetivo del proyecto y su funcionamiento general.
-
----
-
 ## 5. Ejecución del proyecto
 
 1. Clonar o descargar el repositorio

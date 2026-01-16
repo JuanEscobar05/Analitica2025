@@ -21,25 +21,27 @@ Este proyecto está orientado a fines **académicos y formativos**, especialment
 
 ```
 Analitica2025-main/
+├── 📁 data/
+│   ├── 📁 __pycache__/
+│   └── 📄 listasSimuladas.py
 │
-├── main.py
-├── explicación.txt
-├── paquetes.txt
-├── readme.md
+├── 📁 notebook/
+│   ├── 📁 __pycache__/
+│   ├── 📄 generarReportes.py
+│   ├── 📄 graficarBarras.py
+│   └── 📄 prueba.html
 │
-├── data/
-│   └── listasSimuladas.py
+├── 📁 reportes/
+│   ├── 📄 tablaCuatro.html
+│   ├── 📄 tablaDos.html
+│   ├── 📄 tablaTres.html
+│   └── 📄 tablaUno.html
 │
-├── notebook/
-│   ├── generarReportes.py
-│   ├── graficarBarras.py
-│   └── prueba.html
-│
-├── reportes/
-│   ├── tablaUno.html
-│   ├── tablaDos.html
-│   ├── tablaTres.html
-│   └── tablaCuatro.html
+├── 📄 .gitignore
+├── 📄 explicacion.txt
+├── 📄 main.py
+├── 📄 paquetes.txt
+└── 📄 readme.md
 ```
 
 ---
